@@ -1,24 +1,35 @@
 body {
-  font-family: Verdana;
+  font-family: Calibri Light, sans-serif;
   font-size: 1.5em;
-}
+  text-transform: uppercase; }
+  body h1 {
+    color: #3498db;
+    text-align: center; }
+  body h2 {
+    color: #2980b9;
+    text-align: center; }
 
 #team-members {
-  clear: both;
-}
+  clear: both; }
 
 #team-members .member {
   float: left;
   /*border: 1px solid gray;*/
   margin: 10px;
-  padding: 6px;
-}
+  padding: 6px; }
 
 #team-members .member img {
   width: 200px;
   height: 200px;
-}
+  border-radius: 150px; }
+
+#team-members .member img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 1s; }
 
 #team-members .member div.name {
-  text-align: center;  
-}
+  text-align: center;
+  font-family: Calibri Light, sans-serif;
+  color: #2980b9; }
+
+/*# sourceMappingURL=style.css.map */
